@@ -1,0 +1,113 @@
+*{
+    box-sizing: border-box;
+}
+ 
+body {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    font-size: 15px;
+    color: #c4c3ca;
+    line-height: 1.7;
+    overflow-x: hidden;
+    background-color:#1f2029;
+}
+
+.main-section{
+    display: block;
+    position: relative;
+    width: 100%;
+}
+
+.title{
+    font-size: 34px;
+    font-family: sans-serif;
+    text-align: center;
+    margin-bottom: 30px;
+
+    color:#ffeba7;
+}
+
+
+form {
+    display: block;
+    position: relative;
+    width: 100%;
+    flex-direction: column;
+    margin: 0 auto;
+    width: 700px;
+    height: fit-content;
+    background-color:  #2a2b38;
+    border: solid black 1px;
+    border-radius: 14px;
+    padding: 30px;
+    box-shadow: 0 8px 24px 0 #2a2b38;
+}
+
+.names {
+    padding-bottom: 20px;
+    display: flex;
+    gap: 20px; 
+}
+
+
+input {
+    height: 48px;
+    width: 100%;
+    font-weight: 500;
+    border-radius: 6px;
+    font-size: 14px;
+    line-height: 22px;
+    letter-spacing: 0.5px;
+    outline: none;
+    border: none;
+    padding: 10px;
+    color:  #1f2029;
+    background-color: #c4c3ca;
+}
+
+
+.animals{
+    padding-bottom: 20px;
+}
+
+
+.reason{
+    padding-bottom: 30px;
+}
+
+.reason label {
+    display: flex;
+}
+
+#textarea {
+
+    width: 550px;
+    height: 150px;
+    border-radius: 16px;
+    background-color: #c4c3ca;
+    padding: 20px;
+    border: none;
+
+}
+
+.btn-cont{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 30px;
+}
+
+.button {
+    
+    width: 90px;
+    height: 35px;
+    border-radius: 6px;
+    font-size: 13px;
+    font-weight: 600;
+    box-shadow: 0 8px 24px 0 rgba(255,235,167,.2);
+    letter-spacing: 1px;
+    background-color: #ffeba7;
+    color: #102770;
+    border: none;
+}
