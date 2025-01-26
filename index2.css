@@ -12,7 +12,7 @@ body {
     background-color:#1f2029;
 }
 
-.section{
+section{
     display: block;
     position: relative;
     width: 100%;
@@ -37,7 +37,7 @@ form {
     width: 700px;
     height: fit-content;
     background-color:  #2a2b38;
-    border: solid black 1px;
+    border: solid black 0.5px;
     border-radius: 14px;
     padding: 30px;
     box-shadow: 0 8px 24px 0 #2a2b38;
